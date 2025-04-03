@@ -1,0 +1,32 @@
+﻿Forecasting Salaries for IT Jobs: A Machine Learning Approach
+Tanmay Sonawane (34), Zachary Picard (30), Gaurang Karpe (18)
+Dr. Ashok Patel
+Department of Data Science/Computer Science, University of Massachusetts Dartmouth, MA
+3/26/2025
+
+
+1. BACKGROUND
+The challenge of accurately assessing fair market value for IT roles, ranging from software engineers to data scientists, is a significant hurdle for both recent graduates and experienced professionals. The dynamic and competitive nature of the tech industry, coupled with rapidly changing job market conditions, makes it increasingly difficult to determine fair compensation for various roles. Our solution directly addresses this issue by delivering a predictive salary model that leverages a comprehensive dataset of salary information across different tech roles. By using machine learning algorithms, we aim to predict salaries based on critical factors like experience level, job title, company size, remote work ratio, and geographic location. This model will empower job seekers and professionals to make informed career decisions, evaluate job offers, and confidently negotiate salaries. For employers, it offers valuable insights on setting competitive compensation packages and aligning with industry trends. Ultimately, this tool aims to ensure that both professionals and companies can navigate the complexities of salary negotiation with greater precision and confidence.
+
+
+2. RESEARCH QUESTION
+Predicting salaries in high-demand fields like AI, ML, and Data Science is crucial, especially in the context of economic uncertainty, job layoffs, and evolving work structures. For talented professionals, recent graduates, and individuals transitioning from computer engineering to data science, understanding salary trends is essential for making informed career decisions. As remote work and company structures change, machine learning models can offer valuable insights into salary forecasting based on factors like experience, job title, company size, and remote work status. This research aims to explore how machine learning can predict salaries in these roles, helping job seekers, professionals aiming for raises, and employers navigate the shifting job market. One key aspect of this research is selecting the right machine learning models and methodologies to ensure accurate predictions. Which machine learning models are best suited to predict salaries accurately? Can we reliably predict salary outcomes given the complexities of the data? What are the most important features influencing salary predictions, and how can feature engineering improve the model's performance?
+
+
+3. METHODOLOGY
+1. Gather salary data of Data Scientists from Kaggle, which contains the yearly salaries for various job titles.
+2. Evaluate the data, perform data cleaning, and feature engineering to properly label and
+encode the data for a machine learning model.
+3. Split the data into a training set, a validation set, and testing set.
+4. Select the models to train.
+5. Evaluate the model using the test set, calculate performance metrics, and fine-tune the model further.
+6. Analyze the results and decide on the optimal model.
+
+
+Software: Python, Jupyter Notebooks, Kaggle
+
+
+REFERENCES
+[1] Sachidanandan, Samith. The Global AI/ML/Data Science Salary for 2025. Kaggle, 2025, https://www.kaggle.com/datasets/samithsachidanandan/the-global-ai-ml-data-science-salary-for-2025.
+[2] "Machine Learning Engineer Salary Trends." AI/ML Blog, California Institute of Technology, https://pg-p.ctme.caltech.edu/blog/ai-ml/machine-learning-engineer-salary-trends. Accessed 26 Mar. 2025.
+[3] "Here’s How You Can Predict Salary Negotiation." LinkedIn, 2025, https://www.linkedin.com/advice/0/heres-how-you-can-predict-salary-negotiation-biide. Accessed 26 Mar. 2025.
