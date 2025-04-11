@@ -1,0 +1,15 @@
+1. Feature Engineering 
+2. Tanmay: One ML algorithm
+3. Gaurang: XGBoost Algorithm to predict salary based on [experience_level,employment_type,job_title,employee_residence,company_location,company_size]
+
+
+
+
+Good Potential Categorical Features that have been encoded and are ready for ML:
+job_title_salary_rank --> Groups similar job titles and ranks those groups by average salary (convert to numeric counterpart)
+company_size --> Encoded S,M,L to 1,2,3 
+Experience_level_encoded --> maps experience to numerical value.
+employment_type_encoded --> Maps employment type to numerical values
+work_year --> work year
+
+TARGET: salary_in_usd
